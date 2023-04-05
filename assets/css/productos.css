@@ -1,0 +1,24 @@
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo__prod{
+    padding: 2rem 3.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ver__todo{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+

@@ -1,0 +1,50 @@
+.prod{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+.prod__titulo{
+    font-size: 1.4375rem;
+}
+
+.prod__imagen{
+    height: 200px;
+}
+
+.prod__agregar{
+    position: relative;
+    top: 118px;
+    left: 80px;
+}
+
+.prod__editar{
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+
+.prod__eliminar{
+    position: relative;
+    top: 45px;
+    left: 160px;
+}
+
+.prod__precio{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 0.5;
+    text-align: justify;
+}
+
+.prod__contenido{
+    padding: 0.5rem;
+}
+
+.prod__boton{
+    font-weight: 700;
+    text-decoration: none;
+}
+
