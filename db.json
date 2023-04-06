@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "imagen": "../assets/img/mandos colores.png",
-      "nombre": "Mandos PS5",
-      "precio": "8400",
-      "descripcion": "Vas a poder tener una experiencia de juego más intensa e inmersiva. El innovador control de PS5 cuenta con respuesta háptica y efectos de gatillo dinámicos. Además, incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 4 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.",
-      "id": 2
-    },
-    {
       "imagen": "../assets/img/yodab.png",
       "nombre": "Muñeco Yoda",
       "precio": "10100",
@@ -29,10 +22,10 @@
       "id": 4
     },
     {
-      "imagen": "../assets/img/joystick ps5.png",
-      "nombre": "Consola prueba",
-      "precio": "111",
-      "id": "3b34d00a-4c3f-453a-9a00-28794fc0ad8f"
+      "imagen": "../assets/img/consola2.png",
+      "nombre": "Consola2",
+      "precio": "2000",
+      "id": "3599c5e0-5846-459f-8ebf-9676dbddd671"
     }
   ]
 }
