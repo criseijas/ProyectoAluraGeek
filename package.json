@@ -1,0 +1,19 @@
+{
+  "name": "proyectoalurageek",
+  "version": "1.0.0",
+  "description": "e-commerce alura geek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criseijas/ProyectoAluraGeek.git"
+  },
+  "author": "Cristina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criseijas/ProyectoAluraGeek/issues"
+  },
+  "homepage": "https://github.com/criseijas/ProyectoAluraGeek#readme"
+}

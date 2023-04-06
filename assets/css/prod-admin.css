@@ -8,6 +8,7 @@
 
 .prod__titulo{
     font-size: 1.4rem;
+    margin-left: 100px;
 }
 
 .prod__imagen{
@@ -17,19 +18,20 @@
 .prod__agregar{
     position: relative;
     top: -160px;
-    left: 150px;
+    left: 70px;
+    color: green;
 }
 
 .prod__editar{
     position: relative;
-    top: -160px;
-    left: 170px;
+    top: -50px;
+    left: 35px;
 }
 
 .prod__eliminar{
     position: relative;
-    top: -160px;
-    left: 190px;
+    top: 0px;
+    left: 0px;
 }
 
 .prod__precio{
@@ -37,6 +39,7 @@
     font-weight: 600;
     line-height: 0.5;
     text-align: justify;
+    margin-left: 100px;
 }
 
 .prod__contenido{
@@ -51,4 +54,3 @@
     font-weight: 700;
     text-decoration: none;
 }
-
