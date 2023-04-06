@@ -1,6 +1,4 @@
 .prod{
-    /*display: flex;
-    flex-direction: row;*/
     margin-bottom: 5rem;
     margin-right: 5rem;
     /*width: calc(25% - 5rem);*/
@@ -16,10 +14,15 @@
 }
 
 .prod__agregar{
-    position: relative;
-    top: -160px;
-    left: 70px;
     color: green;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.prod__agregar img{
+    position: relative;
+    top: 9px;
 }
 
 .prod__editar{

@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/productos.css">
-    <link rel="stylesheet" href="../assets/css/prod-admin.css">
+    <link rel="stylesheet" href="../assets/css/prod.css">
     <link rel="stylesheet" href="../assets/css/contacto.css">
+    <link rel="stylesheet" href="../assets/css/prod_nuevo.css">
     <title>AluraGeek</title>
 </head>
 <body>
@@ -25,17 +25,21 @@
                 <li class="menu__item"><a class="menu__link" href="./index.html">Inicio</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Productos</a></li>
                 <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
-                <li class="menu__item"><a class="menu__link" href="./login.html">Login</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Login</a></li>
             </ul>
         </nav>
     </header>
-    <section class="titulo__prod">
-        <h2>Productos</h2>
-        <a class="prod__agregar" href="../screens/producto_nuevo.html">Agregar producto <img src="../assets/img/add_circle_create_expand_new_plus_icon_123218.png" alt="plus"></a>
-    </section>
-    <section class="productos" data-admin>
-        
-        
+    <main>
+        <section class="product-add">
+          <div class="product-add_title">Agregar nuevo producto</div>
+          <form class="form-cadastro" data-form>
+            <input class="product-add_input__url" type="text" placeholder="URL de imagen" required data-url/>
+            <input class="product-add_input__name" type="text" placeholder="Nombre del producto" required data-nombre/>
+            <input class="product-add_input__price" type="text" placeholder="Precio del producto" required data-precio/>
+            <button type="submit" class="product-add_btn">Agregar producto</button>
+          </form>
+        </section>
+      </main>
     </section>
     <section class="contacto" id="contacto">
         <div class="referencia">
@@ -60,6 +64,7 @@
           <button>Enviar Mensaje</button>
         </div>
       </section>
-    </body>
-    <script type="module" src="../controllers/prod-admin.controller.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script type="module" src="../controllers/prod-nuevo.controller.js"></script>
+</body>
 </html>

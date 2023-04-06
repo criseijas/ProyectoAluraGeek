@@ -3,7 +3,7 @@ import { productoServices } from "../service/producto-service.js";
 const crearNuevaLinea = (imagen, nombre, precio) => {
     const linea = document.createElement("div");
     const contenido = `<div class="prod">
-    <a class="prod__agregar" href="#"><img src="../assets/img/add_circle_create_expand_new_plus_icon_123218.png" alt="plus"></a>
+    
     <a class="prod__editar" href="#"><img src="../assets/img/Edit_icon-icons.com_55921.png" alt="edit"></a>
     <a class="prod__eliminar" href="#"><img src="../assets/img/3643729-bin-delete-garbage-rubbish-trash-waste_113421.png" alt="delete"></a>
     <img class="prod__imagen" alt="Joystick PS5" src="${imagen}"/>
