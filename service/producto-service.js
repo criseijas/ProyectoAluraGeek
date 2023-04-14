@@ -1,9 +1,14 @@
 /*GET*/
 const listaProductos = () => fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
 
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`).then(respuesta => respuesta.json());
+}
+
+
 /*POST*/ 
 
-const crearProducto = (imagen, nombre, precio) => {
+const crearProducto = (imagen, nombre, precio, descripcion) => {
 
     return fetch("http://localhost:3000/producto", {
 
@@ -11,7 +16,7 @@ const crearProducto = (imagen, nombre, precio) => {
         headers:{
             "Content-type":"application/json"
         },
-        body: JSON.stringify({imagen, nombre, precio, id: uuid.v4()})
+        body: JSON.stringify({imagen, nombre, precio, descripcion, id: uuid.v4()})
     })
 }
 
@@ -29,4 +34,5 @@ export const productoServices = {
     listaProductos,
     crearProducto,
     eliminarProducto,
+    detalleProducto,
 }

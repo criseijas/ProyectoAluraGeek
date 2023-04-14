@@ -1,0 +1,26 @@
+.prod{
+    display: flex;
+}
+
+.prod-titulo h2{
+    margin-left: 3rem 2rem;
+}
+
+
+.prod__imagen{
+    padding: 5rem 0 5rem 5rem;
+    width: 300px;
+    height: 300px;
+}
+
+.prod__contenido{
+    width: 60%;
+    margin: 6rem auto;
+}
+
+.prod__descripcion{
+    font-weight: 500;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}

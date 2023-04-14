@@ -22,10 +22,11 @@
       "id": 4
     },
     {
-      "imagen": "../assets/img/consola2.png",
-      "nombre": "Consola2",
-      "precio": "2000",
-      "id": "3599c5e0-5846-459f-8ebf-9676dbddd671"
+      "imagen": "../assets/img/mandos colores.png",
+      "nombre": "Mandos PS4",
+      "precio": "15000",
+      "descripcion": "Mando para PS4 de varios colores",
+      "id": "5b6a862a-c7c5-4e97-874c-49d674acc526"
     }
   ]
 }

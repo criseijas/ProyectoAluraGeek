@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/productos.css">
-    <link rel="stylesheet" href="../assets/css/prod.css">
     <link rel="stylesheet" href="../assets/css/contacto.css">
+    <link rel="stylesheet" href="../assets/css/prod-desc.css">
     <title>AluraGeek</title>
 </head>
 <body>
@@ -22,23 +21,22 @@
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item"><a class="menu__link" href="./index.html">Inicio</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Productos</a></li>
+                <li class="menu__item"><a class="menu__link" href="./productos_all.html">Productos</a></li>
                 <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
                 <li class="menu__item"><a class="menu__link" href="./login.html">Login</a></li>
             </ul>
         </nav>
     </header>
-    <section class="titulo__prod">
-        <h2>Joystick PS5</h2>
-    </section>
-    <section class="productos" data-all>
+    
+    <section class="productos_desc" data-desc>
 
-        <div class="prod">
+        <!--<div class="prod">
             <img class="prod__imagen" alt="Joystick PS5" src="../assets/img/joystick ps5.png"/>
             <div class="prod__contenido">
+                <h2 class="prod__titulo">Joystick PS5</h2>
                 <p class="prod__descripcion">Con el nuevo control inalámbrico Sony DualSense para PlayStation 5 vas a poder tener una experiencia de juego más intensa e inmersiva. El innovador control de PS5 cuenta con respuesta háptica y efectos de gatillo dinámicos. Además, incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 4 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.</p>
             </div>
-        </div>
+        </div>-->
         
     </section>
     <section class="contacto" id="contacto">
@@ -64,5 +62,6 @@
           <button>Enviar Mensaje</button>
         </div>
       </section>
+<script type="module" src="../controllers/prod-desc.controller.js"></script>      
 </body>
 </html>

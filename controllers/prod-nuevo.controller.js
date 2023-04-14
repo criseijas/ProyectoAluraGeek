@@ -7,8 +7,9 @@ formulario.addEventListener("submit", (evento) => {
     const imagen = document.querySelector("[data-url]").value;
     const nombre = document.querySelector("[data-nombre]").value;
     const precio = document.querySelector("[data-precio]").value;
+    const descripcion = document.querySelector("[data-desc]").value;
 
-    productoServices.crearProducto(imagen, nombre, precio).then(respuesta => {
+    productoServices.crearProducto(imagen, nombre, precio, descripcion).then(respuesta => {
         alert("Producto agregado");
         /*window.location.href = "/screens/agregado.html";*/
     }).catch(err => console.log(err));
