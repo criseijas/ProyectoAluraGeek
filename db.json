@@ -4,29 +4,57 @@
       "imagen": "../assets/img/joystick ps5.png",
       "nombre": "Joystick PS5",
       "precio": "5400",
-      "descripcion": "Con el nuevo control inalámbrico Sony DualSense para PlayStation 5 vas a poder tener una experiencia de juego más intensa e inmersiva. El innovador control de PS5 cuenta con respuesta háptica y efectos de gatillo dinámicos. Además, incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 4 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.",
+      "descripcion": "Con el nuevo control inalámbrico Sony DualSense para PlayStation 5 vas a poder tener una experiencia de juego más intensa e inmersiva. El innovador control de PS5 cuenta con respuesta háptica y efectos de gatillo dinámicos. Además, incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 5 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.",
       "id": 1
     },
     {
       "imagen": "../assets/img/yodab.png",
-      "nombre": "Muñeco Yoda",
+      "nombre": "Muñeco  Baby Yoda",
       "precio": "10100",
-      "descripcion": "El innovador control de PS5 cuenta con respuesta háptica y efectos de gatillo dinámicos. Además, incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 4 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.",
+      "descripcion": "Esta figura premium de Star Wars Mandalorian Baby Yoda está motorizada y emite sonidos. Con 25 cm está fabricada con una textura única que le caracteriza. Hará las delicias de todos, ya que sólo con verla es adorable.",
       "id": 3
     },
     {
-      "imagen": "../assets/img/consola_juegos.png",
-      "nombre": "Consola Juegos",
-      "precio": "7100",
-      "descripcion": "Incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico. El nuevo control de Sony mantiene lo mejor del Dualshock 4 y suma muchas más sensaciones de juego. El DualSense combina mejoras en la autonomía de la batería con un dispositivo con un peso más liviano.",
+      "imagen": "../assets/img/consola2.png",
+      "nombre": "Consola PS5",
+      "precio": "105000",
+      "descripcion": "Descubre una experiencia de juego más inmersiva con soporte para retroalimentación háptica, gatillos adaptables y tecnología de audio en 3D. Juegos asombrosos: Maravíllate con asombrosos gráficos y descubre las nuevas funciones de PS5™.",
       "id": 4
     },
     {
       "imagen": "../assets/img/mandos colores.png",
-      "nombre": "Mandos PS4",
+      "nombre": "controles Joy‑Con",
       "precio": "15000",
-      "descripcion": "Mando para PS4 de varios colores",
+      "descripcion": "Los controles Joy‑Con te ofrecen total flexibilidad a la hora de jugar. La vibración HD te coloca en el juego con efectos que podrás sentir, mientras que la cámara infrarroja de movimiento te brinda nuevas experiencias.",
       "id": "5b6a862a-c7c5-4e97-874c-49d674acc526"
+    },
+    {
+      "imagen": "../assets/img/consola_juegos.png",
+      "nombre": "Consola Portátil Level",
+      "precio": "25000",
+      "descripcion": "Llevá con vos la consola portátil Retroboy X Pro a todos lados y divertite con los 2450 juegos incluidos. Posee una pantalla a color de 3 pulgadas con una resolución de 960 x 480 píxeles y un parlante de alta fidelidad para que disfrutes del entretenimiento al máximo.",
+      "id": "1539c441-fff5-4377-931a-529f3848d2ba"
+    },
+    {
+      "imagen": "../assets/img/lentes.png",
+      "nombre": "Lentes Vr Box",
+      "precio": "6000",
+      "descripcion": "Soporta dispositivos de 4.5\" hasta 6\" (incluso 6.5\" sin funda). Tres correas adaptables a la cabeza y parte frontal amortiguada con goma espuma forrada.  Lentes ópticos esféricos ajustables. Adaptalo a tus ojos!",
+      "id": "a33580de-8b9a-4160-8499-6db3590fde1d"
+    },
+    {
+      "imagen": "../assets/img/taza sw.png",
+      "nombre": "Taza Star Wars",
+      "precio": "9300",
+      "descripcion": "La taza de cerámica esculpida Vandor Star Wars Storm Trooper está esculpida a medida y bellamente diseñada para que sea única. Cuenta con un diseño de carácter audaz y brillante. Esta taza es apta para microondas y se recomienda lavarla a mano. Se envía en una caja de regalo a todo color.",
+      "id": "d6182996-63e3-4ddc-a3fe-e519be1f16a7"
+    },
+    {
+      "imagen": "../assets/img/mandalorian.png",
+      "nombre": "Poster Mandalorian",
+      "precio": "1800",
+      "descripcion": "Los posters de Star Wars son originales y los podrás encontrar con los principales personajes de esta saga tan mítica. Los posters de Star Wars son de una excelente relación calidad precio.",
+      "id": "985b0588-a579-4ea3-b5bb-d5d50d7293bc"
     }
   ]
 }

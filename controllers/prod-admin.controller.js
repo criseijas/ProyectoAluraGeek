@@ -4,7 +4,7 @@ const crearNuevaLinea = (imagen, nombre, precio, id) => {
     
     const linea = document.createElement("div");
     const contenido = `<div class="prod">
-    <a class="prod__editar" href="#" id="${id}"><img src="../assets/img/Edit_icon-icons.com_55921.png" alt="edit"></a>
+    <a class="prod__editar" href="../screens/producto_editar.html?id=${id}"><img src="../assets/img/Edit_icon-icons.com_55921.png" alt="edit"></a>
     <a class="prod__eliminar" href="#" id="${id}"><img src="../assets/img/3643729-bin-delete-garbage-rubbish-trash-waste_113421.png" alt="delete"></a>
     <img class="prod__imagen" alt="Joystick PS5" src="${imagen}"/>
     <div class="prod__contenido">
